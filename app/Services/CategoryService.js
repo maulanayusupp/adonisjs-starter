@@ -449,8 +449,8 @@ class CategoryService {
       const arr = categories.toJSON();
 
       const doc = new Document({
-        creator: "Seeking",
-        description: "Export from Seeking"
+        creator: "Prodo",
+        description: "Export from Prodo"
       });
 
       const data = [];
